@@ -73,10 +73,10 @@ while True:
         area = area_of_triangle(base, height)
     elif choice == '6':
         side_length = int(input("Enter the base length of the Polygon: "))
-        sides_num = int(input(f"Enter the height of the Polygon: "))
+        sides_num = int(input("Enter the height of the Polygon: "))
         area = area_of_polygons(sides_num,side_length)
     else:
         print("Invalid choice. Please select a valid number or enter 'quit' to exit.")
         continue
 
-    print(f"The area is: ",area)
+    print("The area is: ",area)
