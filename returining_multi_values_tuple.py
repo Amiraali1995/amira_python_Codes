@@ -1,0 +1,10 @@
+def readDate():
+    print("Enter a data")
+    month=int(input("Month: "))
+    day = int(input("Day: "))
+    year = int(input("Year: "))
+    return (month,day,year)
+date=readDate()
+print(date)
+(month,day,year)=readDate()
+print(month,day,year)
